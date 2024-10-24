@@ -8,7 +8,7 @@ BODY {
 }
 
 .main {
-    background-image: url(assests/images/bg.jpg);
+    background-image: url(images/bg.jpg);
     height: 80vh;
     position: relative;
     background-position: center center;
@@ -222,10 +222,17 @@ border-radius: 10px;
     opacity: 0.9;
     padding-top: 20px;
 }
-@media(max-width:600px){
+@media(max-width:828px){
 .first{
     flex-direction:column;
-}}
+}
+
+}
+@media(max-width:828px){
+.uppar{
+    flex-direction:column;
+} 
+}
 .faq{
 background-color: black;
 color: white;
